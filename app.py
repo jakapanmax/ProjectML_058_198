@@ -11,7 +11,7 @@ from diffusers import StableDiffusionPipeline
 app = tk.Tk()
 app.geometry("1200x700")
 app.title("Birthday Image Generator") 
-authorization_token = "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"
+authorization_token = ""
 
 # Headline 
 title = ctk.CTkLabel(app, text="Birthday Image Generator", padx=10, pady=40, height=90, width=50, text_color="black")
